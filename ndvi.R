@@ -15,6 +15,3 @@ z19 <- "+proj=utm +zone=19 +south +datum=WGS84 +units=m +no_defs"
 
 
 
-
-
-X
