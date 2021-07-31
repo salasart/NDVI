@@ -39,9 +39,9 @@
 </tr>
 </table>
 
-### Color Natural
+### NDVI
 <p align="center">
 
-  <img src="https://github.com/salasart/NDVI/blob/main/result/432.png"/>
+  <img src="https://github.com/salasart/NDVI/blob/main/result/ndvi.png"/>
 
   </p>
