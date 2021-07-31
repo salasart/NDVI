@@ -1,43 +1,26 @@
-# ÍNDICE DE VEGETACIÓN DE DIFERENCIA NORMALIZADA - NDVI
+# Analisis comparativo de estimación del NDVI medinate la utilización de imagenes satelitales sentinel 2 y MODIS  
 
 ## Fuente: Sentinel 2
-### Product Info
+### Recursos de datos y preprocesamiento
+Todas las imágenes de Sentinel-2 se obtuvieron de la Agencia Espacial Europea (ESA; https://scihub.copernicus.eu).
 <table>
 <tr>
-<th>Product uri</th>
-<th>Processing level</th>
-<th>Product type</th>
-<th>Processing baseline</th>
-<th>Generation time</th>
+<th>Sensor de satélite</th>
+<th>Tipo de producto</th>
+<th>Fecha</th>
+<th>Resolución espacial (m)</th>
+<th>Resolución radiométrica (bit)</th>
 </tr>
 <tr>
 
-<td>S2A_MSIL2A_20210723T145731_N0301_R039_T19LCF_20210723T184613.SAFE</td>
-<td>Level-2A</td>
-<td>S2MSI2A</td>
-<td>03.01</td>
-<td>2021-07-23T18:46:13.000000Z</td>
-</tr>
-</table>
-
-### Datatake GS2A_20210723T145731_031782_N03.01
-<table>
-<tr>
-<th>Spacecraft name</th>
-<th>Type</th>
-<th>Sensing start</th>
-<th>Sensing orbit number</th>
-<th>Sensing orbit direction</th>
-</tr>
-
-<tr>
 <td>Sentinel-2A</td>
-<td>INS-NOBS</td>
-<td>2021-07-23T14:57:31.024Z</td>
-<td>39</td>
-<td>DESCENDING</td>
+<td>S2MSI2A</td>
+<td>23-07-2021</td>
+<td>10</td>
+<td>12</td>
 </tr>
 </table>
+
 
 ### NDVI
 <p align="center">
