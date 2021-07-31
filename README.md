@@ -2,22 +2,22 @@
 
 ## Fuente: Sentinel 2
 ### Recursos de datos y preprocesamiento
-Todas las imágenes de Sentinel-2 se obtuvieron de la Agencia Espacial Europea (ESA; https://scihub.copernicus.eu).
+Las imágenes de Sentinel-2 se obtuvieron de la Agencia Espacial Europea (ESA; https://scihub.copernicus.eu).
 <table>
 <tr>
 <th>Sensor de satélite</th>
 <th>Tipo de producto</th>
-<th>Fecha</th>
 <th>Resolución espacial (m)</th>
 <th>Resolución radiométrica (bit)</th>
+<th>Fecha</th>
 </tr>
 <tr>
 
 <td>Sentinel-2A</td>
 <td>S2MSI2A</td>
-<td>23-07-2021</td>
 <td>10</td>
 <td>12</td>
+<td>23-07-2021</td>
 </tr>
 </table>
 
