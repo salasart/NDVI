@@ -1,6 +1,8 @@
 # Analisis comparativo de estimación del NDVI mediante la utilización de imagenes satelitales sentinel 2 y MODIS  
+## Introducción
 
-## Fuente: Sentinel 2
+## Materiales y métodos
+
 ### Recursos de datos y preprocesamiento
 Las imágenes de Sentinel-2 se obtuvieron de la Agencia Espacial Europea (ESA; https://scihub.copernicus.eu).
 <table>
@@ -21,6 +23,7 @@ Las imágenes de Sentinel-2 se obtuvieron de la Agencia Espacial Europea (ESA; h
 </tr>
 </table>
 
+## Resultados y discusiones
 
 ### NDVI
 <p align="center">
@@ -28,3 +31,12 @@ Las imágenes de Sentinel-2 se obtuvieron de la Agencia Espacial Europea (ESA; h
   <img src="https://github.com/salasart/NDVI/blob/main/result/ndvi.png"/>
 
   </p>
+
+
+## Conclusión
+
+
+
+
+
+
