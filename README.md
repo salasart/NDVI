@@ -1,4 +1,4 @@
-# Analisis comparativo de estimación del NDVI medinate la utilización de imagenes satelitales sentinel 2 y MODIS  
+# Analisis comparativo de estimación del NDVI mediante la utilización de imagenes satelitales sentinel 2 y MODIS  
 
 ## Fuente: Sentinel 2
 ### Recursos de datos y preprocesamiento
