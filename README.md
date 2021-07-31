@@ -13,11 +13,11 @@ Las imágenes de Sentinel-2 se obtuvieron de la Agencia Espacial Europea (ESA; h
 </tr>
 <tr>
 
-<td>Sentinel-2A</td>
-<td>S2MSI2A</td>
+<td><p align="center">Sentinel-2A</p></td>
+<td><p align="center">S2MSI2A</p></td>
 <td><p align="center">10</p></td>
-<td>12</td>
-<td>23-07-2021</td>
+<td><p align="center">12</p></td>
+<td><p align="center">23-07-2021</p></td>
 </tr>
 </table>
 
