@@ -10,6 +10,10 @@ La metodología manejada para el cálculo del índice espectral de vegetación N
 
 ## Materiales y métodos
 
+### Área de estudio
+
+El área de estudio será en el sector minero que abarca una extensión de 595 796 ha  se encuentre dentro de la jurisdicción de la región de Madre De Dios.
+
 ### Recursos de datos y preprocesamiento
 Las imágenes de Sentinel-2 se obtuvieron de la Agencia Espacial Europea (ESA; https://scihub.copernicus.eu).
 <table>
