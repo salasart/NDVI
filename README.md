@@ -41,6 +41,6 @@
 
 <p align="center">
 
-  <img src="https://user-images.githubusercontent.com/16768318/77121867-203e0300-6a34-11ea-97ba-6bed74ef4300.gif"/>
+  <img src="https://github.com/salasart/NDVI/blob/main/result/432.png"/>
 
   </p>
