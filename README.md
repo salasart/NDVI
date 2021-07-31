@@ -1,4 +1,4 @@
-# Analisis comparativo de estimación del NDVI mediante la utilización de imagenes satelitales sentinel 2 y MODIS  
+# Análisis comparativo de estimación del NDVI mediante la utilización de imágenes satelitales sentinel 2 y MODIS  
 ## Introducción
 En la actualidad existen numerosas aplicaciones de la Geomática que permite visualizar el estado de la biodiversidad mundial, donde la ubicación espacial con coordenadas geográficas es fundamental, una aplicación que ha tomado fuerza en los últimos años es la agricultura de precisión a nivel mundial.
 
