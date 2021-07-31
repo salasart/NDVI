@@ -10,6 +10,7 @@ setwd("D:/CSA_R/projects/ndvi/")
 
 # Coordenadas en wgs84-zona19
 z19 <- "+proj=utm +zone=19 +south +datum=WGS84 +units=m +no_defs"
+color <- brewer.pal(10, 'RdYlGn')
 
 ## Cargar los datos ------------------------------------------------------------
 
@@ -32,10 +33,38 @@ S2A20
 # Área de estudio
 area <-st_read('./data/area.shp')
 
-# recortar al área de estudio
+# recortar al área de estudio con sentinel-2A 10m
 stl10 <- crop(S2A10, area) %>% mask(area)
 
-png(filename = './result/432.png',
-    units = 'in', width = 17, height = 10, res = 300)
+## Combinación de bandas -------------------------------------------------------
+# Color natural 4,3,2
 plotRGB(stl10, r=3, g=2, b=1, axes = T, colNA = 'white', stretch = 'lin' )
+
+# Color infrarojo
+plotRGB(stl, r=4, g=3, b=2, axes = T, colNA = 'white', stretch = 'lin' )
+
+
+## NDVI ------------------------------------------------------------------------
+# Índice de Vegetación de Diferencia Normalizada (NDVI)
+# ndvi = (b08-b04)/(b08+b04)
+ndvi <- (stl10[[4]]-stl10[[3]])/(stl10[[4]]+stl10[[3]])
+
+ndvi_r <- reclassify(ndvi, c(-Inf, 0.1, 0,
+                             0.1, 0.2, 1,
+                             0.2, 0.3, 2,
+                             0.3, 0.4, 3,
+                             0.4, 0.5, 4,
+                             0.5, 0.6, 5,
+                             0.6, 0.7, 6,
+                             0.7, 0.8, 7,
+                             0.8, 0.9, 8,
+                             0.9, 1, 9
+))
+
+
+
+png(filename = './result/ndvi.png',
+    units = 'in', width = 15, height = 10, res = 300)
+plot(ndvi_r, col = col.ndvi, legend.args = list(text = 'NDVI', side = 4,
+                                                font = 2, line = 2.5, cex = 0.8))
 dev.off()
