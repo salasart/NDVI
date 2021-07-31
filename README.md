@@ -25,13 +25,3 @@ S2MSI2A
 2021-07-23T18:46:13.000000Z
 </td>
 </tr>
-
-</table>
-
-Product uri					Preview image url
-S2A_MSIL2A_20210723T145731_N0301_R039_T19LCF_20210723T184613.SAFE	Level-2A		03.01	2021-07-23T18:46:13.000000Z	Not applicable
-Datatake GS2A_20210723T145731_031782_N03.01
-Spacecraft name	Type	Sensing start	Sensing stop	Sensing orbit number	Sensing orbit direction
-Sentinel-2A	INS-NOBS	2021-07-23T14:57:31.024Z		39	DESCENDING
-
- 
